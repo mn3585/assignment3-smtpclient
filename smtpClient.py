@@ -6,10 +6,10 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
     endmsg = "\r\n.\r\n"
 
     # Choose a mail server (e.g. Google mail server) if you want to verify the script beyond GradeScope
-    #recipient = "<mn3585@nyu.edu>"
-    #sender = "<mn907@georgetoen.edu>"
-    #username = "mn907"
-    #password = 'IncomeLookWellOysterLedge'
+    # recipient = "<mn3585@nyu.edu>"
+    # sender = "<mn907@georgetoen.edu>"
+    # username = "mn907"
+    # password = 'IncomeLookWellOysterLedge'
     # Create socket called clientSocket and establish a TCP connection with mailserver and port
 
     # Fill in start
