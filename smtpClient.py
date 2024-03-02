@@ -72,9 +72,11 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
         recv6 = clientSocket.recv(1024).decode()
         clientSocket.close()
     except timeout:
-        print("Connection timed out.Try again")
+        pass
+        #print("Connection timed out.Try again")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        pass
+        #print(f"An error occurred: {e}")
     # Fill in end
 
 
